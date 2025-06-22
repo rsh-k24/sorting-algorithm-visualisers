@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithm Visualizer - Bubble Sort</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav-links">
+            <a href="index.html" class="active">Bubble Sort</a>
+            <a href="selectionsort.html">Selection Sort</a>
+        </div>
+        <h1>Bubble Sort Visualizer</h1>
+        <div class="controls">
+            <button type="button" id="generateArray">Generate New Array</button>
+            <button type="button" id="sortArray">Sort Array</button>
+            <label for="speed">Speed:</label>
+            <input type="range" id="speed" min="10" max="500" value="100" step="10">
+            <label for="arraySize">Array Size:</label>
+            <input type="range" id="arraySize" min="5" max="50" value="20" step="1">
+        </div>
+        <div id="array-container">
+        </div>
+    </div>
+    <script src="bubblesort.js"></script>
+</body>
+</html>
